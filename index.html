@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rutina de entrenamiento de cinco días con seguimiento local de progreso y enlaces de apoyo a SmartWorkout.">
+    <meta name="theme-color" content="#1f4788">
+    <title>Mi Rutina - Offline con SmartWorkout</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="./assets/js/routine-data.js"></script>
+    <script defer src="./assets/js/app.js"></script>
+</head>
+<body>
+<div class="container">
+        <div class="header">
+            <h1>💪 Mi Rutina de Entrenamiento</h1>
+            <p>Offline Completa + Acceso a SmartWorkout</p>
+            <div>
+                <span class="header-badge">5 días/semana</span>
+                <span class="header-badge">Imágenes en SmartWorkout ✓</span>
+                <span class="header-badge">100% Offline ✓</span>
+            </div>
+        </div>
+        
+        <div class="toolbar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar ejercicio...">
+            </div>
+            <button class="btn btn-primary" onclick="mostrarAyuda()">❓ Ayuda</button>
+        </div>
+        
+        <div class="tabs" id="tabsContainer"></div>
+        
+        <div id="contentContainer"></div>
+        
+        <div class="footer">
+            <h3>📋 Consejos para Ectomorfos</h3>
+            <ul class="footer-list">
+                <li><strong>Nutrición:</strong> Come en superávit calórico (300-500 cal extra)</li>
+                <li><strong>Proteína:</strong> 1.6-2.2g/kg de peso corporal</li>
+                <li><strong>Descanso:</strong> Duerme 7-9 horas cada noche</li>
+                <li><strong>Progresión:</strong> Aumenta peso o reps cada 7-10 días</li>
+                <li><strong>Técnica:</strong> Fase excéntrica (bajar) de 3 segundos</li>
+            </ul>
+        </div>
+        
+        <div style="text-align: center; margin-top: 20px; font-size: 12px; color: var(--text-muted);">
+            <p>🏋️ Rutina Offline CON SmartWorkout | Oct 2026</p>
+        </div>
+    </div>
+</body>
+</html>
